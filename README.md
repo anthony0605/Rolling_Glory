@@ -11,6 +11,19 @@ Laravel Lumen is a stunningly fast PHP micro-framework for building web applicat
 
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
+##However, if you are not using Homestead, you will need to make sure your server meets the following requirements:
+
+PHP >= 7.3 
+OpenSSL PHP Extension 
+PDO PHP Extension 
+Mbstring 
+PHP Extension 
+DB Mysql
+
+1. composer install
+2. php artisan migrate
+3. php -S localhost:8010 -t public
+
 ## Contributing
 
 Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
